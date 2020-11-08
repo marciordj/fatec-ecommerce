@@ -1,0 +1,26 @@
+@import './default.scss';
+
+
+.header-container {
+  max-width: 100%;
+  background-color: red;
+}
+
+header > .apresentation-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header > .menu-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+header > .menu-header > nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1
+}
